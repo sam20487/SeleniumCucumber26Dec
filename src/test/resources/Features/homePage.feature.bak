@@ -1,0 +1,13 @@
+Feature: feature to test Jdoddle Home page
+
+  Scenario: Validate Login is successful when login using right credentials
+    Given Jdoddle page is open and click on Login
+    When username as "shankar.bhanja@gmail.com" and password as "Test@1234" and click on submit
+    Then verify login should be successful
+
+
+Scenario: Validate Access a Product via Search
+    Given ebay Access a Product via Search
+    Then filter option should applied properly in search result 
+
+    
